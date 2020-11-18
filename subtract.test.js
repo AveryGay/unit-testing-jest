@@ -1,5 +1,6 @@
-const subtract = require('./subtract')
+const { test, expect } = require("@jest/globals");
+const subtract = require("./subtract");
 
-test('properly subtracts two numbers', () => {
-    expect(subtract(1,2)).toBe(-1)
-})
+test("properly subtracts two numbers", () => {
+  expect(subtract(1, 2)).toBe(-1);
+});
